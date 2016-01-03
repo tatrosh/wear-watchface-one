@@ -5,7 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d88e563-f10e-4953-990e-5fe1698f62a9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\appcompat_v7_23_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\mediarouter_v7_23_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_ads_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_analytics_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_appindexing_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_appinvite_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_appstate_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_auth_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_base_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_basement_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_cast_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_drive_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_fitness_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_games_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_gcm_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_identity_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_location_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_maps_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_measurement_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_nearby_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_panorama_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_plus_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_safetynet_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_vision_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_wallet_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\play_services_wearable_8_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\recyclerview_v7_22_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\support_annotations_23_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\support_annotations_23_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\support_v4_23_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\support_v4_23_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Development\Android\AndroidStudioProjects\WatchFace\.idea\libraries\wearable_1_3_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build.gradle" afterPath="$PROJECT_DIR$/mobile/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/build.gradle" afterPath="$PROJECT_DIR$/wear/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/mobile.iml" afterPath="$PROJECT_DIR$/mobile/mobile.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/wear.iml" afterPath="$PROJECT_DIR$/wear/wear.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WatchFaceOne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +73,8 @@
       <file leaf-file-name="WatchFaceOne.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wear/src/main/java/cz/petrleitermann/watchfaceone/WatchFaceOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38174275">
-              <caret line="240" column="25" selection-start-line="240" selection-start-column="25" selection-end-line="241" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.54253113">
+              <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
               <folding>
                 <element signature="e#0#16174#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -2146,7 +2183,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="D:\Development\Android\AndroidStudioProjects\WatchFace" value="5804503208460" />
+        <entry key="D:\Development\Android\AndroidStudioProjects\WatchFace" value="5805831810126" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2737,24 +2774,6 @@
               <option name="myItemId" value="wear" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WatchFaceOne" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wear" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -2996,14 +3015,14 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18138196" sideWeight="0.5034826" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986622" sideWeight="0.49232244" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297659" sideWeight="0.49488163" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18138196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18138196" sideWeight="0.49651742" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297659" sideWeight="0.4884837" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -3387,8 +3406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/java/cz/petrleitermann/watchfaceone/WatchFaceOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38174275">
-          <caret line="240" column="25" selection-start-line="240" selection-start-column="25" selection-end-line="241" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.54253113">
+          <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
           <folding>
             <element signature="e#0#16174#0" expanded="true" />
             <element signature="imports" expanded="true" />
