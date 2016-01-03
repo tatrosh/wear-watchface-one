@@ -3,6 +3,7 @@
     <dimen name="hour_hand_stroke">3dp</dimen>
     <dimen name="min_hand_stroke">2dp</dimen>
     <dimen name="sec_hand_stroke">1dp</dimen>
-    <dimen name="tick_stroke">2dp</dimen>
-    <dimen name="borders">3dp</dimen>
+    <dimen name="main_tick_stroke">3dp</dimen>
+    <dimen name="side_tick_stroke">2dp</dimen>
+    <dimen name="borders">5dp</dimen>
 </resources>

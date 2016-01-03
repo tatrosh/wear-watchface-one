@@ -21,13 +21,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.res.Resources;
-import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -153,8 +150,8 @@ public class WatchFaceOne extends CanvasWatchFaceService {
             setWatchFaceStyle(new WatchFaceStyle.Builder(WatchFaceOne.this)
                     .setCardPeekMode(WatchFaceStyle.PEEK_MODE_SHORT)
                     .setBackgroundVisibility(WatchFaceStyle.BACKGROUND_VISIBILITY_INTERRUPTIVE)
-                    .setHotwordIndicatorGravity(Gravity.TOP | Gravity.CENTER_HORIZONTAL)
                     .setStatusBarGravity(Gravity.TOP | Gravity.CENTER_HORIZONTAL)
+                    .setHotwordIndicatorGravity(Gravity.TOP | Gravity.CENTER_HORIZONTAL)
                     .setShowSystemUiTime(false)
                     .build());
 
@@ -169,7 +166,7 @@ public class WatchFaceOne extends CanvasWatchFaceService {
 
             mMainTickPaint = new Paint();
             mMainTickPaint.setColor(resources.getColor(R.color.main_ticks));
-            mMainTickPaint.setStrokeWidth(resources.getDimension(R.dimen.tick_stroke));
+            mMainTickPaint.setStrokeWidth(resources.getDimension(R.dimen.main_tick_stroke));
             mMainTickPaint.setAntiAlias(true);
             mMainTickPaint.setStrokeCap(Paint.Cap.BUTT);
             mMainTickPaint.setTextSize(22);
@@ -178,6 +175,7 @@ public class WatchFaceOne extends CanvasWatchFaceService {
 
             mSideTickPaint = new Paint(mMainTickPaint);
             mSideTickPaint.setColor(resources.getColor(R.color.side_ticks));
+            mSideTickPaint.setStrokeWidth(resources.getDimension(R.dimen.side_tick_stroke));
 
             mMinHandPaint = new Paint();
             mMinHandPaint.setColor(resources.getColor(R.color.analog_hands));
@@ -266,52 +264,49 @@ public class WatchFaceOne extends CanvasWatchFaceService {
             float length1 = 0, length2 = 0;
             float x1 = 0, y1 = 0, x2 = 0, y2 = 0;
 
-            // draw ticks on ambient display
-            // works good on not ambient display as well, only need to draw numbers maybe?
-//            if (mAmbient) {
-                // main ticks
-                length1 = centerX - 9;
-                length2 = centerX + 70;
-                for (int i = 0; i < 60; i++) {
-                    angle = (i * Math.PI * 2 / 60);
-                    sinVal = Math.sin(angle);
-                    cosVal = Math.cos(angle);
-                    x1 = (float)(sinVal * length1);
-                    y1 = (float)(-cosVal * length1);
-                    x2 = (float)(sinVal * length2);
-                    y2 = (float)(-cosVal * length2);
+            // draw ticks
+            // main ticks
+            length1 = centerX - 14;
+            length2 = centerX - 5;
+            for (int i = 0; i < 60; i++) {
+                angle = (i * Math.PI * 2 / 60);
+                sinVal = Math.sin(angle);
+                cosVal = Math.cos(angle);
+                x1 = (float)(sinVal * length1);
+                y1 = (float)(-cosVal * length1);
+                x2 = (float)(sinVal * length2);
+                y2 = (float)(-cosVal * length2);
 
-                    if (i % 15 == 0) {
+                if (i % 15 == 0) {
+                canvas.drawLine(centerX + x1, centerY + y1, centerX + x2,
+                        centerY + y2, mMainTickPaint);
+                }
+            }
+
+            // side ticks
+            length1 = centerX + 9;
+            length2 = centerX + 17;
+            for (int i = 0; i < 60; i++) {
+                angle = (i * Math.PI * 2 / 60);
+                sinVal = Math.sin(angle);
+                cosVal = Math.cos(angle);
+                x1 = (float)(sinVal * length1);
+                y1 = (float)(-cosVal * length1);
+                x2 = (float)(sinVal * length2);
+                y2 = (float)(-cosVal * length2);
+
+                if (i % 5 == 0 && i % 15 != 0) {
                     canvas.drawLine(centerX + x1, centerY + y1, centerX + x2,
-                            centerY + y2, mMainTickPaint);
-                    }
+                            centerY + y2, mSideTickPaint);
                 }
-
-                // side ticks
-                length1 = centerX + 17;
-                length2 = centerX + 30;
-                for (int i = 0; i < 60; i++) {
-                    angle = (i * Math.PI * 2 / 60);
-                    sinVal = Math.sin(angle);
-                    cosVal = Math.cos(angle);
-                    x1 = (float)(sinVal * length1);
-                    y1 = (float)(-cosVal * length1);
-                    x2 = (float)(sinVal * length2);
-                    y2 = (float)(-cosVal * length2);
-
-                    if (i % 5 == 0 && i % 15 != 0) {
-                        canvas.drawLine(centerX + x1, centerY + y1, centerX + x2,
-                                centerY + y2, mSideTickPaint);
-                    }
-                }
-//            }
+            }
 
             // draw numbers
-            canvas.drawText("12", centerX, centerY - 129, mMainTickPaint);
-            canvas.drawText("6", centerX, centerY + 142, mMainTickPaint);
+            canvas.drawText("12", centerX, 37, mMainTickPaint);
+            canvas.drawText("6", centerX, height - 20, mMainTickPaint);
 
-            canvas.drawText("3", centerX + 140, centerY + 8, mMainTickPaint);
-            canvas.drawText("9", centerX - 140, centerY + 8, mMainTickPaint);
+            canvas.drawText("3", width - 25, centerY + 8, mMainTickPaint);
+            canvas.drawText("9", 25, centerY + 8, mMainTickPaint);
 
             // Compute rotations and lengths for the clock hands.
             float seconds = mCalendar.get(Calendar.SECOND) +
@@ -353,9 +348,9 @@ public class WatchFaceOne extends CanvasWatchFaceService {
 
             canvas.drawCircle(centerX, centerY, 2, mHourHandPaint);
 
-            // draw borders
-            float[] lines = {0,0,width,0, 0,0,0,height, width,0,width,height, 0,height,width,height};
-            canvas.drawLines(lines, mBordersPaint);
+            // draw borders - currently not neccessary
+//            float[] lines = {0,0,width,0, 0,0,0,height, width,0,width,height, 0,height,width,height};
+//            canvas.drawLines(lines, mBordersPaint);
         }
 
         @Override
