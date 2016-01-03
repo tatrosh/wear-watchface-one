@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d88e563-f10e-4953-990e-5fe1698f62a9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/src/main/java/cz/petrleitermann/watchfaceone/WatchFaceOne.java" afterPath="$PROJECT_DIR$/wear/src/main/java/cz/petrleitermann/watchfaceone/WatchFaceOne.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/wear/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="WatchFaceOne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +36,8 @@
       <file leaf-file-name="WatchFaceOne.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wear/src/main/java/cz/petrleitermann/watchfaceone/WatchFaceOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35373443">
-              <caret line="350" column="54" selection-start-line="350" selection-start-column="54" selection-end-line="350" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.38174275">
+              <caret line="240" column="25" selection-start-line="240" selection-start-column="25" selection-end-line="241" selection-end-column="0" />
               <folding>
                 <element signature="e#0#16174#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -3389,8 +3387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/java/cz/petrleitermann/watchfaceone/WatchFaceOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35373443">
-          <caret line="350" column="54" selection-start-line="350" selection-start-column="54" selection-end-line="350" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.38174275">
+          <caret line="240" column="25" selection-start-line="240" selection-start-column="25" selection-end-line="241" selection-end-column="0" />
           <folding>
             <element signature="e#0#16174#0" expanded="true" />
             <element signature="imports" expanded="true" />
