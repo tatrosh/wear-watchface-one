@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hour_hand_stroke">3dp</dimen>
+    <dimen name="min_hand_stroke">2dp</dimen>
+    <dimen name="sec_hand_stroke">1dp</dimen>
+    <dimen name="tick_stroke">2dp</dimen>
+</resources>
