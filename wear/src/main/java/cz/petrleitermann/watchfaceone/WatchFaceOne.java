@@ -86,9 +86,6 @@ public class WatchFaceOne extends CanvasWatchFaceService {
     private class Engine extends CanvasWatchFaceService.Engine {
         boolean mRegisteredTimeZoneReceiver = false;
 
-        Bitmap mBackgroundBitmap;
-        Bitmap mBackgroundScaledBitmap;
-
         Paint mBackgroundPaint;
 
         Paint mBordersPaint;
@@ -166,9 +163,6 @@ public class WatchFaceOne extends CanvasWatchFaceService {
             mBackgroundPaint = new Paint();
             mBackgroundPaint.setColor(resources.getColor(R.color.background));
 
-            Drawable backgroundDrawable = resources.getDrawable(R.drawable.wfo_numthree, null);
-            mBackgroundBitmap = ((BitmapDrawable) backgroundDrawable).getBitmap();
-
             mBordersPaint = new Paint();
             mBordersPaint.setColor(resources.getColor(R.color.background));
             mBordersPaint.setStrokeWidth(resources.getDimension(R.dimen.borders));
@@ -205,18 +199,6 @@ public class WatchFaceOne extends CanvasWatchFaceService {
             mCalendar = Calendar.getInstance();
 
             mTime = new Time();
-        }
-
-        @Override
-        public void onSurfaceChanged(
-                SurfaceHolder holder, int format, int width, int height) {
-            if (mBackgroundScaledBitmap == null
-                    || mBackgroundScaledBitmap.getWidth() != width
-                    || mBackgroundScaledBitmap.getHeight() != height) {
-                mBackgroundScaledBitmap = Bitmap.createScaledBitmap(mBackgroundBitmap,
-                        width, height, true /* filter */);
-            }
-            super.onSurfaceChanged(holder, format, width, height);
         }
 
         @Override
