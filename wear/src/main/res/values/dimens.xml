@@ -4,4 +4,5 @@
     <dimen name="min_hand_stroke">2dp</dimen>
     <dimen name="sec_hand_stroke">1dp</dimen>
     <dimen name="tick_stroke">2dp</dimen>
+    <dimen name="borders">3dp</dimen>
 </resources>

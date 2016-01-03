@@ -85,14 +85,21 @@ public class WatchFaceOne extends CanvasWatchFaceService {
 
     private class Engine extends CanvasWatchFaceService.Engine {
         boolean mRegisteredTimeZoneReceiver = false;
-        Paint mBackgroundPaint;
+
         Bitmap mBackgroundBitmap;
         Bitmap mBackgroundScaledBitmap;
+
+        Paint mBackgroundPaint;
+
+        Paint mBordersPaint;
+
         Paint mSideTickPaint;
         Paint mMainTickPaint;
+
         Paint mHourHandPaint;
         Paint mMinHandPaint;
         Paint mSecHandPaint;
+
         Calendar mCalendar;
 
         boolean mAmbient;
@@ -162,16 +169,18 @@ public class WatchFaceOne extends CanvasWatchFaceService {
             Drawable backgroundDrawable = resources.getDrawable(R.drawable.wfo_numthree, null);
             mBackgroundBitmap = ((BitmapDrawable) backgroundDrawable).getBitmap();
 
+            mBordersPaint = new Paint();
+            mBordersPaint.setColor(resources.getColor(R.color.background));
+            mBordersPaint.setStrokeWidth(resources.getDimension(R.dimen.borders));
+
             mMainTickPaint = new Paint();
             mMainTickPaint.setColor(resources.getColor(R.color.main_ticks));
             mMainTickPaint.setStrokeWidth(resources.getDimension(R.dimen.tick_stroke));
             mMainTickPaint.setAntiAlias(true);
             mMainTickPaint.setStrokeCap(Paint.Cap.BUTT);
             mMainTickPaint.setTextSize(22);
-//            mMainTickPaint.setTextSkewX((float) -0.25);
             mMainTickPaint.setTextAlign(Paint.Align.CENTER);
             mMainTickPaint.setFakeBoldText(true);
-//            mMainTickPaint.setFontFeatureSettings();
 
             mSideTickPaint = new Paint(mMainTickPaint);
             mSideTickPaint.setColor(resources.getColor(R.color.side_ticks));
@@ -262,8 +271,11 @@ public class WatchFaceOne extends CanvasWatchFaceService {
             // Find the center. Ignore the window insets so that, on round watches with a
             // "chin", the watch face is centered on the entire screen, not just the usable
             // portion.
-            float centerX = bounds.width() / 2f;
-            float centerY = bounds.height() / 2f;
+            float width = bounds.width();
+            float height = bounds.height();
+
+            float centerX = width / 2f;
+            float centerY = height / 2f;
 
             // Constant to help calculate clock hand rotations
             final float TWO_PI = (float) Math.PI * 2f;
@@ -276,7 +288,7 @@ public class WatchFaceOne extends CanvasWatchFaceService {
             // works good on not ambient display as well, only need to draw numbers maybe?
 //            if (mAmbient) {
                 // main ticks
-                length1 = centerX - 7;
+                length1 = centerX - 9;
                 length2 = centerX + 70;
                 for (int i = 0; i < 60; i++) {
                     angle = (i * Math.PI * 2 / 60);
@@ -294,7 +306,7 @@ public class WatchFaceOne extends CanvasWatchFaceService {
                 }
 
                 // side ticks
-                length1 = centerX + 19;
+                length1 = centerX + 17;
                 length2 = centerX + 30;
                 for (int i = 0; i < 60; i++) {
                     angle = (i * Math.PI * 2 / 60);
@@ -313,11 +325,11 @@ public class WatchFaceOne extends CanvasWatchFaceService {
 //            }
 
             // draw numbers
-            canvas.drawText("12", centerX, centerY - 132, mMainTickPaint);
-            canvas.drawText("6", centerX, centerY + 145, mMainTickPaint);
+            canvas.drawText("12", centerX, centerY - 129, mMainTickPaint);
+            canvas.drawText("6", centerX, centerY + 142, mMainTickPaint);
 
-            canvas.drawText("3", centerX + 142, centerY + 8, mMainTickPaint);
-            canvas.drawText("9", centerX - 142, centerY + 8, mMainTickPaint);
+            canvas.drawText("3", centerX + 140, centerY + 8, mMainTickPaint);
+            canvas.drawText("9", centerX - 140, centerY + 8, mMainTickPaint);
 
             // Compute rotations and lengths for the clock hands.
             float seconds = mCalendar.get(Calendar.SECOND) +
@@ -358,6 +370,10 @@ public class WatchFaceOne extends CanvasWatchFaceService {
             }
 
             canvas.drawCircle(centerX, centerY, 2, mHourHandPaint);
+
+            // draw borders
+            float[] lines = {0,0,width,0, 0,0,0,height, width,0,width,height, 0,height,width,height};
+            canvas.drawLines(lines, mBordersPaint);
         }
 
         @Override
