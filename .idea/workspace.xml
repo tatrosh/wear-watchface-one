@@ -4,7 +4,12 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d88e563-f10e-4953-990e-5fe1698f62a9" name="Default" comment="" />
+    <list default="true" id="7d88e563-f10e-4953-990e-5fe1698f62a9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/src/main/java/cz/petrleitermann/watchfaceone/WatchFaceOne.java" afterPath="$PROJECT_DIR$/wear/src/main/java/cz/petrleitermann/watchfaceone/WatchFaceOne.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/wear/src/main/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="WatchFaceOne.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,19 +39,20 @@
       <file leaf-file-name="WatchFaceOne.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wear/src/main/java/cz/petrleitermann/watchfaceone/WatchFaceOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33264032">
-              <caret line="298" column="46" selection-start-line="298" selection-start-column="46" selection-end-line="298" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.6070686">
+              <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="219" selection-end-column="9" />
               <folding>
-                <element signature="e#0#16917#0" expanded="true" />
+                <element signature="e#0#17292#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#3528#4247#0" expanded="true" />
-                <element signature="e#4246#4247#0" expanded="true" />
-                <element signature="e#4653#4884#0" expanded="true" />
-                <element signature="e#4883#4884#0" expanded="true" />
-                <element signature="e#6225#6268#0" expanded="true" />
-                <element signature="e#6938#6985#0" expanded="true" />
-                <element signature="e#7188#7236#0" expanded="true" />
-                <element signature="e#7453#7500#0" expanded="true" />
+                <element signature="e#3563#4282#0" expanded="true" />
+                <element signature="e#4281#4282#0" expanded="true" />
+                <element signature="e#4688#4919#0" expanded="true" />
+                <element signature="e#4918#4919#0" expanded="true" />
+                <element signature="e#6257#6296#0" expanded="true" />
+                <element signature="e#6461#6504#0" expanded="true" />
+                <element signature="e#7061#7108#0" expanded="true" />
+                <element signature="e#7311#7359#0" expanded="true" />
+                <element signature="e#7576#7623#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/wear/src/main/res/values/dimens.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -90,6 +96,9 @@
         <option value="valueResourceFile" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -2640,8 +2649,8 @@
         <option value="$PROJECT_DIR$/wear/src/main/res/values/images.xml" />
         <option value="$PROJECT_DIR$/wear/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/wear/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/wear/src/main/java/cz/petrleitermann/watchfaceone/WatchFaceOne.java" />
         <option value="$PROJECT_DIR$/wear/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/wear/src/main/java/cz/petrleitermann/watchfaceone/WatchFaceOne.java" />
       </list>
     </option>
   </component>
@@ -2654,7 +2663,7 @@
     <option name="width" value="3224" />
     <option name="height" value="1754" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -2689,6 +2698,48 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WatchFaceOne" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wear" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WatchFaceOne" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wear" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WatchFaceOne" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wear" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -2697,7 +2748,7 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Android_Wear_Square_API_22" />
     <property name="FullScreen" value="false" />
     <property name="android.project.structure.last.selected" value="wear" />
@@ -2921,7 +2972,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297659" sideWeight="0.49744081" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329097" sideWeight="0.47952655" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329097" sideWeight="0.47952655" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.4987204" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2970,16 +3021,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#16917#0" expanded="true" />
+            <element signature="e#0#17292#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3528#4247#0" expanded="true" />
-            <element signature="e#4246#4247#0" expanded="true" />
-            <element signature="e#4653#4884#0" expanded="true" />
-            <element signature="e#4883#4884#0" expanded="true" />
-            <element signature="e#6225#6268#0" expanded="true" />
-            <element signature="e#6938#6985#0" expanded="true" />
-            <element signature="e#7188#7236#0" expanded="true" />
-            <element signature="e#7453#7500#0" expanded="true" />
+            <element signature="e#3563#4282#0" expanded="true" />
+            <element signature="e#4281#4282#0" expanded="true" />
+            <element signature="e#4688#4919#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#6257#6296#0" expanded="true" />
+            <element signature="e#6461#6504#0" expanded="true" />
+            <element signature="e#7061#7108#0" expanded="true" />
+            <element signature="e#7311#7359#0" expanded="true" />
+            <element signature="e#7576#7623#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3013,16 +3065,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#16917#0" expanded="true" />
+            <element signature="e#0#17292#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3528#4247#0" expanded="true" />
-            <element signature="e#4246#4247#0" expanded="true" />
-            <element signature="e#4653#4884#0" expanded="true" />
-            <element signature="e#4883#4884#0" expanded="true" />
-            <element signature="e#6225#6268#0" expanded="true" />
-            <element signature="e#6938#6985#0" expanded="true" />
-            <element signature="e#7188#7236#0" expanded="true" />
-            <element signature="e#7453#7500#0" expanded="true" />
+            <element signature="e#3563#4282#0" expanded="true" />
+            <element signature="e#4281#4282#0" expanded="true" />
+            <element signature="e#4688#4919#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#6257#6296#0" expanded="true" />
+            <element signature="e#6461#6504#0" expanded="true" />
+            <element signature="e#7061#7108#0" expanded="true" />
+            <element signature="e#7311#7359#0" expanded="true" />
+            <element signature="e#7576#7623#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3056,16 +3109,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#16917#0" expanded="true" />
+            <element signature="e#0#17292#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3528#4247#0" expanded="true" />
-            <element signature="e#4246#4247#0" expanded="true" />
-            <element signature="e#4653#4884#0" expanded="true" />
-            <element signature="e#4883#4884#0" expanded="true" />
-            <element signature="e#6225#6268#0" expanded="true" />
-            <element signature="e#6938#6985#0" expanded="true" />
-            <element signature="e#7188#7236#0" expanded="true" />
-            <element signature="e#7453#7500#0" expanded="true" />
+            <element signature="e#3563#4282#0" expanded="true" />
+            <element signature="e#4281#4282#0" expanded="true" />
+            <element signature="e#4688#4919#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#6257#6296#0" expanded="true" />
+            <element signature="e#6461#6504#0" expanded="true" />
+            <element signature="e#7061#7108#0" expanded="true" />
+            <element signature="e#7311#7359#0" expanded="true" />
+            <element signature="e#7576#7623#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3098,16 +3152,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#16917#0" expanded="true" />
+            <element signature="e#0#17292#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3528#4247#0" expanded="true" />
-            <element signature="e#4246#4247#0" expanded="true" />
-            <element signature="e#4653#4884#0" expanded="true" />
-            <element signature="e#4883#4884#0" expanded="true" />
-            <element signature="e#6225#6268#0" expanded="true" />
-            <element signature="e#6938#6985#0" expanded="true" />
-            <element signature="e#7188#7236#0" expanded="true" />
-            <element signature="e#7453#7500#0" expanded="true" />
+            <element signature="e#3563#4282#0" expanded="true" />
+            <element signature="e#4281#4282#0" expanded="true" />
+            <element signature="e#4688#4919#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#6257#6296#0" expanded="true" />
+            <element signature="e#6461#6504#0" expanded="true" />
+            <element signature="e#7061#7108#0" expanded="true" />
+            <element signature="e#7311#7359#0" expanded="true" />
+            <element signature="e#7576#7623#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3133,16 +3188,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#16917#0" expanded="true" />
+            <element signature="e#0#17292#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3528#4247#0" expanded="true" />
-            <element signature="e#4246#4247#0" expanded="true" />
-            <element signature="e#4653#4884#0" expanded="true" />
-            <element signature="e#4883#4884#0" expanded="true" />
-            <element signature="e#6225#6268#0" expanded="true" />
-            <element signature="e#6938#6985#0" expanded="true" />
-            <element signature="e#7188#7236#0" expanded="true" />
-            <element signature="e#7453#7500#0" expanded="true" />
+            <element signature="e#3563#4282#0" expanded="true" />
+            <element signature="e#4281#4282#0" expanded="true" />
+            <element signature="e#4688#4919#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#6257#6296#0" expanded="true" />
+            <element signature="e#6461#6504#0" expanded="true" />
+            <element signature="e#7061#7108#0" expanded="true" />
+            <element signature="e#7311#7359#0" expanded="true" />
+            <element signature="e#7576#7623#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3176,16 +3232,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#16917#0" expanded="true" />
+            <element signature="e#0#17292#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3528#4247#0" expanded="true" />
-            <element signature="e#4246#4247#0" expanded="true" />
-            <element signature="e#4653#4884#0" expanded="true" />
-            <element signature="e#4883#4884#0" expanded="true" />
-            <element signature="e#6225#6268#0" expanded="true" />
-            <element signature="e#6938#6985#0" expanded="true" />
-            <element signature="e#7188#7236#0" expanded="true" />
-            <element signature="e#7453#7500#0" expanded="true" />
+            <element signature="e#3563#4282#0" expanded="true" />
+            <element signature="e#4281#4282#0" expanded="true" />
+            <element signature="e#4688#4919#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#6257#6296#0" expanded="true" />
+            <element signature="e#6461#6504#0" expanded="true" />
+            <element signature="e#7061#7108#0" expanded="true" />
+            <element signature="e#7311#7359#0" expanded="true" />
+            <element signature="e#7576#7623#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3195,16 +3252,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#16917#0" expanded="true" />
+            <element signature="e#0#17292#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3528#4247#0" expanded="true" />
-            <element signature="e#4246#4247#0" expanded="true" />
-            <element signature="e#4653#4884#0" expanded="true" />
-            <element signature="e#4883#4884#0" expanded="true" />
-            <element signature="e#6225#6268#0" expanded="true" />
-            <element signature="e#6938#6985#0" expanded="true" />
-            <element signature="e#7188#7236#0" expanded="true" />
-            <element signature="e#7453#7500#0" expanded="true" />
+            <element signature="e#3563#4282#0" expanded="true" />
+            <element signature="e#4281#4282#0" expanded="true" />
+            <element signature="e#4688#4919#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#6257#6296#0" expanded="true" />
+            <element signature="e#6461#6504#0" expanded="true" />
+            <element signature="e#7061#7108#0" expanded="true" />
+            <element signature="e#7311#7359#0" expanded="true" />
+            <element signature="e#7576#7623#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3214,16 +3272,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#16917#0" expanded="true" />
+            <element signature="e#0#17292#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3528#4247#0" expanded="true" />
-            <element signature="e#4246#4247#0" expanded="true" />
-            <element signature="e#4653#4884#0" expanded="true" />
-            <element signature="e#4883#4884#0" expanded="true" />
-            <element signature="e#6225#6268#0" expanded="true" />
-            <element signature="e#6938#6985#0" expanded="true" />
-            <element signature="e#7188#7236#0" expanded="true" />
-            <element signature="e#7453#7500#0" expanded="true" />
+            <element signature="e#3563#4282#0" expanded="true" />
+            <element signature="e#4281#4282#0" expanded="true" />
+            <element signature="e#4688#4919#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#6257#6296#0" expanded="true" />
+            <element signature="e#6461#6504#0" expanded="true" />
+            <element signature="e#7061#7108#0" expanded="true" />
+            <element signature="e#7311#7359#0" expanded="true" />
+            <element signature="e#7576#7623#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3297,26 +3356,27 @@
     <entry file="file://$PROJECT_DIR$/wear/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/java/cz/petrleitermann/watchfaceone/WatchFaceOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33264032">
-          <caret line="298" column="46" selection-start-line="298" selection-start-column="46" selection-end-line="298" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.6070686">
+          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="219" selection-end-column="9" />
           <folding>
-            <element signature="e#0#16917#0" expanded="true" />
+            <element signature="e#0#17292#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#3528#4247#0" expanded="true" />
-            <element signature="e#4246#4247#0" expanded="true" />
-            <element signature="e#4653#4884#0" expanded="true" />
-            <element signature="e#4883#4884#0" expanded="true" />
-            <element signature="e#6225#6268#0" expanded="true" />
-            <element signature="e#6938#6985#0" expanded="true" />
-            <element signature="e#7188#7236#0" expanded="true" />
-            <element signature="e#7453#7500#0" expanded="true" />
+            <element signature="e#3563#4282#0" expanded="true" />
+            <element signature="e#4281#4282#0" expanded="true" />
+            <element signature="e#4688#4919#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+            <element signature="e#6257#6296#0" expanded="true" />
+            <element signature="e#6461#6504#0" expanded="true" />
+            <element signature="e#7061#7108#0" expanded="true" />
+            <element signature="e#7311#7359#0" expanded="true" />
+            <element signature="e#7576#7623#0" expanded="true" />
           </folding>
         </state>
       </provider>
