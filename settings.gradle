@@ -1,1 +1,1 @@
-include ':mobile', ':watchfaceone'
+include ':app-watchfaceone', ':watchfaceone'
