@@ -11,7 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/mobile" />
-            <option value="$PROJECT_DIR$/wear" />
+            <option value="$PROJECT_DIR$/watchfaceone" />
           </set>
         </option>
       </GradleProjectSettings>
